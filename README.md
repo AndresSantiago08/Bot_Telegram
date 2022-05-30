@@ -1,10 +1,17 @@
-# API y ENDPOINTS
+# Bot de Telegram
 
-Crear una API y nuevos endpoints, requerimientos 2, 3 y 4.   
-Propuestos por Carlo Gilmar
+Crear un bot de Telegram usando el proyecto [Fizzbuzz](https://github.com/AndresSantiago08/Creating_API), para devolver la validación por score o los explorers que estan en determinada misión (node o java).
 
-[Ejercicio 2 de Launch X](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/blob/main/semanas/semana_4/2_api_fizzbuzz_parte2.md)  
+*Agregando método de filtrado por misión con salida de una sola cadena tipo string*
 
-[Ejercicio 3 de Launch X](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/blob/main/semanas/semana_4/3_nuevo_feature_fizzbuzz_parte3.md)    
 
-[Ejercicio 4 de Launch X](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/blob/main/semanas/semana_4/4_contribution.md)   
+
+
+
+Dependencias:
+
+npm: "8.10.0" - Gestor
+dotenv: "^16.0.1" - Importar credenciales
+jest: "^26.0.0" - Pruebas
+eslint: "^8.15.0" - Guía de formato para código
+node-telegram-bot-api: "^0.57.0" - Conectar con Telegram
