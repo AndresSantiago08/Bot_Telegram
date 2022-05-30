@@ -7,7 +7,8 @@
     "test": "node ./node_modules/jest/bin/jest.js",
     "server": "node ./lib/server.js",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
-    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "bot": "node ./lib/bot.js"
   },
   "repository": {
     "type": "git",
@@ -154,6 +155,7 @@
     "natural-compare": "^1.4.0",
     "node-int64": "^0.4.0",
     "node-releases": "^2.0.4",
+    "node-telegram-bot-api": "^0.57.0",
     "normalize-path": "^3.0.0",
     "npm-run-path": "^4.0.1",
     "once": "^1.4.0",
