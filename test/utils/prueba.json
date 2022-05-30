@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Woopa1",
+      "githubUsername": "ajolonauta2",
+      "score": 2,
+      "mission": "node",
+      "stacks": [
+        "javascript",
+        "groovy",
+        "elm"
+      ]
+    },
+    {
+      "name": "Woopa2",
+      "githubUsername": "ajolonauta4",
+      "mission": "node",
+      "score": 4,
+      "stacks": [
+        "javascript"
+      ]
+    },
+    {
+      "name": "Woopa3",
+      "githubUsername": "ajolonauta6",
+      "score": 6,
+      "mission": "java",
+      "stacks": [
+        "elm"
+      ]
+    },
+    {
+      "name": "Woopa4",
+      "githubUsername": "ajolonauta9",
+      "score": 9,
+      "mission": "java",
+      "stacks": [
+        "javascript",
+        "elixir",
+        "groovy",
+        "reasonML",
+        "elm"
+      ]
+    },
+    {
+      "name": "Woopa5",
+      "githubUsername": "ajolonauta10",
+      "score": 10,
+      "mission": "java",
+      "stacks": [
+        "javascript",
+        "elixir",
+        "groovy",
+        "reasonML",
+        "elm"
+      ]
+    }
+    ] 
