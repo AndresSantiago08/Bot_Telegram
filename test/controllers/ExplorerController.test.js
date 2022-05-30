@@ -29,4 +29,10 @@ describe("Pruebas de unidad de la clase ExplorerController", () => {
         const explorersByStack = ExplorerController.getExplorersByStack("javascript");
         expect(explorersByStack.length).toBe(11);
     });
+
+    test("Requerimiento 5: Filtrar por misión y convertir salida en una cadena tipo string", () => {
+        const ExplorersByMission = ExplorerController.getExplorersByMissionInString("java");
+
+        expect(ExplorersByMission).toBe("{\"name\":\"Woopa6\",\"githubUsername\":\"ajolonauta6\",\"score\":6,\"mission\":\"java\",\"stacks\":[\"elm\"]}{\"name\":\"Woopa7\",\"githubUsername\":\"ajolonauta7\",\"mission\":\"java\",\"score\":7,\"stacks\":[]}{\"name\":\"Woopa8\",\"githubUsername\":\"ajolonauta8\",\"score\":8,\"mission\":\"java\",\"stacks\":[\"elm\"]}{\"name\":\"Woopa9\",\"githubUsername\":\"ajolonauta9\",\"score\":9,\"mission\":\"java\",\"stacks\":[\"javascript\",\"elixir\",\"groovy\",\"reasonML\",\"elm\"]}{\"name\":\"Woopa10\",\"githubUsername\":\"ajolonauta10\",\"score\":10,\"mission\":\"java\",\"stacks\":[\"javascript\",\"elixir\",\"groovy\",\"reasonML\",\"elm\"]}");
+    });
 });
