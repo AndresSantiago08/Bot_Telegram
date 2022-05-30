@@ -26,4 +26,11 @@ describe("Test de clase ExplorerService", () => {
         const ExplorersByStack = ExplorerService.getExplorerByStack(explorer, "elixir");
         expect(ExplorersByStack.length).toBe(2);
     });
+
+    test("Requerimiento 5: Filtrar por misión y convertir salida en una cadena tipo string", () => {
+        const explorer = ExplorersRead.readJsonFile("./test/utils/prueba.json");
+        const ExplorersByMission = ExplorerService.filterByMissionInString(explorer, "node");
+
+        expect(ExplorersByMission).toBe("{\"name\":\"Woopa1\",\"githubUsername\":\"ajolonauta2\",\"score\":2,\"mission\":\"node\",\"stacks\":[\"javascript\",\"groovy\",\"elm\"]}{\"name\":\"Woopa2\",\"githubUsername\":\"ajolonauta4\",\"mission\":\"node\",\"score\":4,\"stacks\":[\"javascript\"]}");
+    });
 });
