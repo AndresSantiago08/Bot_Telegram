@@ -10,12 +10,14 @@ Crear un bot de Telegram usando el proyecto [Fizzbuzz](https://github.com/Andres
 
 ![Captura de pantalla 2022-05-30 175244](https://user-images.githubusercontent.com/97483147/171073856-3c72e4e6-6245-415a-8aff-4812f07ecf9e.png)
 
-- *Resultado:*
+- *Resultado:*  
+  
+![g1](https://user-images.githubusercontent.com/97483147/171079018-d7b9b4ee-6829-4e4c-8738-c2385368890f.gif)    
 
-Dependencias:
+Dependencias:   
 
-npm: "8.10.0" - Gestor
-dotenv: "^16.0.1" - Importar credenciales
-jest: "^26.0.0" - Pruebas
-eslint: "^8.15.0" - Guía de formato para código
-node-telegram-bot-api: "^0.57.0" - Conectar con Telegram
+npm: "8.10.0" - Gestor   
+dotenv: "^16.0.1" - Importar credenciales    
+jest: "^26.0.0" - Pruebas    
+eslint: "^8.15.0" - Guía de formato para código    
+node-telegram-bot-api: "^0.57.0" - Conectar con Telegram     
