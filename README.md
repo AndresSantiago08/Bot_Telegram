@@ -2,11 +2,15 @@
 
 Crear un bot de Telegram usando el proyecto [Fizzbuzz](https://github.com/AndresSantiago08/Creating_API), para devolver la validación por score o los explorers que estan en determinada misión (node o java).
 
-*Agregando método de filtrado por misión con salida de una sola cadena tipo string*
+- *Agregando método de filtrado por misión con salida de una sola cadena tipo string*
 
+![Captura de pantalla 2022-05-30 174314](https://user-images.githubusercontent.com/97483147/171073867-4c38c888-e223-4233-845b-94358818b06d.png)
 
+- *Creando método para determinar el tipo de solicitud desde Telegram y mostrar el resultado de la consulta*
 
+![Captura de pantalla 2022-05-30 175244](https://user-images.githubusercontent.com/97483147/171073856-3c72e4e6-6245-415a-8aff-4812f07ecf9e.png)
 
+- *Resultado:*
 
 Dependencias:
 
